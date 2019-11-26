@@ -1,5 +1,6 @@
 package com.anderson.springapi.domain;
 
+import com.anderson.springapi.domain.enums.Role;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,6 +15,7 @@ import java.util.List;
 public class User {
 
     private long id;
+    private Role role;
     private String name;
     private String email;
     private String password;
